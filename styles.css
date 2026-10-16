@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+    background-color: #f1f5f9;
+    color: #1e293b;
+    padding: 20px;
+}
+
+h1, h2 {
+    font-weight: bold;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #2563eb;
+    margin-bottom: 15px;
+}
+
+p {
+    color: #334155;
+}
+
+header {
+    background-color: #1e293b;
+    padding: 25px;
+    text-align: center;
+    margin-bottom: 25px;
+    border-radius: 8px;
+}
+
+nav a {
+    display: inline-block;
+    padding: 8px 16px;
+    margin: 5px;
+    background-color: #2563eb;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #60a5fa;
+    color: #1e293b;
+}
+
+.card {
+    width: 600px;
+    max-width: 100%;
+    padding: 20px;
+    border: 2px solid #cbd5e1;
+    border-radius: 8px;
+    background-color: white;
+    margin: 0 auto 20px auto;
+}
+
+#about {
+    border-color: #2563eb;
+    position: relative;
+}
+
+#about::after {
+    content: "Featured";
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #2563eb;
+    color: white;
+    font-size: 0.75rem;
+    padding: 4px 8px;
+    border-radius: 5px;
+}
+
+.card p {
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.intro {
+    color: #2563eb;
+}
+
+.intro::first-letter {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.skill-list {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.skill-list > li {
+    background-color: #dbeafe;
+    color: #1d4ed8;
+    padding: 8px 14px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
+
+.hide-none {
+    display: none;
+}
+
+.hide-visibility {
+    visibility: hidden;
+}
+
+.scroll-box {
+    height: 120px;
+    overflow: auto;
+    padding: 10px;
+    background-color: #f8fafc;
+    border: 1px solid #cbd5e1;
+}
+
+footer {
+    text-align: center;
+    background-color: #1e293b;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+footer p {
+    color: white;
+}
